@@ -2,10 +2,11 @@ Pod::Spec.new do |s|
   s.name           = "AdjustFramework"
   s.version        = "4.29.6"
   s.summary        = "This is the iOS SDK of adjust. You can read more about it at http://adjust.com."
-  s.homepage       = "https://github.com/adjust/ios_sdk"
+  s.homepage       = "https://github.com/genadyb/ios_sdk/"
   s.license        = { :type => 'MIT', :file => 'MIT-LICENSE' }
   s.author         = { "Christian Wellenbrock" => "welle@adjust.com" }
-  s.source         = { :git => "https://github.com/adjust/ios_sdk.git", :tag => "v4.29.6" }
+  # s.source         = { :git => "https://github.com/adjust/ios_sdk.git", :tag => "v4.29.6" }
+  s.source         = { :git => "https://github.com/genadyb/ios_sdk.git", :branch => "podspec_fix" }
   s.ios.deployment_target = '6.0'
   s.tvos.deployment_target = '9.0'
   s.framework      = 'SystemConfiguration'
